@@ -1,0 +1,149 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.main {
+    background-color: var(--neutral-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px 25px;
+}
+
+.card {
+    background-color: var(--neutral-medium);
+    max-width: 346px;
+    padding: 22px;
+    border-radius: 12px;
+}
+
+.card .image-link {
+    position: relative;
+    display: flex;
+    margin-bottom: 19px;
+}
+
+.card .image-link::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-strong); 
+    position: absolute;
+    border-radius: 6px;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.card .image-link:hover::before {
+    opacity: 0.4;
+}
+
+.card .image-link::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: url(../images/icon-view.svg) no-repeat center; 
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.card .image-link:hover::after {
+    opacity: 1;
+} 
+
+.card .image-link .image {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card .title-link .title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+}
+
+.card .title-link .title:hover {
+    color: var(--primary-strong);
+}
+
+.card .description {
+    color: var(--primary-soft);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.info .value, 
+.info .days-left {
+    display: flex;
+    align-items: center;
+}
+
+.info .value {
+    color: var(--primary-strong);
+    font-weight: 600;
+}
+
+.info .days-left {
+    color: var(--primary-soft);
+    font-weight: 400;
+}
+
+.info .value::before,
+.info .days-left::before {
+    content: '';
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.info .value::before {
+    background: url(../images/icon-ethereum.svg) no-repeat center;
+    width: 10px;
+    height: 20px;
+}
+
+.info .days-left::before {
+    background: url(../images/icon-clock.svg) no-repeat center;
+    width: 13px;
+    height: 16px;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--neutral-light);
+    padding: 16px 0 12px;
+}
+
+.creator .creator-image {
+    width: 33px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.creator .text {
+    color: var(--primary-soft);
+    font-weight: 400;
+}
+
+.creator .text .name {
+    color: #ffffff;
+    margin-left: 1px;
+}
+
+.creator .text .name:hover {
+    color: var(--primary-strong);
+}
