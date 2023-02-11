@@ -16,9 +16,9 @@
 <a href="https://julianastahelin.github.io/nft-preview-card-component/" style="display:block;"><img src="design/design-desktop.png" alt="image showing project on desktop size"></a>
 
 <h4>Active states</h4>
-<a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/active-states.gif" alt="image showing project on mobile size" style="width: 60%;"></a>
+<a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/active-states.gif" alt="image showing project on mobile size" style="width: 80%;"></a>
 <h4>Mobile</h4>
-<a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/design-mobile.png" alt="image showing project on mobile size" style="width: 40%;"></a>
+<a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/design-mobile.png" alt="image showing project on mobile size" style="width: 30%;"></a>
 
 <h3>Links</h3>
 <ul>
