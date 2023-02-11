@@ -24,6 +24,7 @@
 <ul>
     <li>Live site URL: <a href="https://julianastahelin.github.io/nft-preview-card-component/">https://julianastahelin.github.io/nft-preview-card-component/</a></li>
     <li>Frontend Mentor Challenge: <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub">https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub</a></li>
+    <li>Frontend Mentor - My solution: <a href="https://www.frontendmentor.io/solutions/nft-preview-card-component-using-css-fD_x2QVaEA">https://www.frontendmentor.io/solutions/nft-preview-card-component-using-css-fD_x2QVaEA</a></li>
 </ul>
 
 <h2>My process</h2>
