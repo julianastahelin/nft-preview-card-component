@@ -14,16 +14,11 @@
 <h3>Screen preview</h3>
 <h4>Desktop</h4>
 <a href="https://julianastahelin.github.io/nft-preview-card-component/" style="display:block;"><img src="design/design-desktop.png" alt="image showing project on desktop size"></a>
-<div style="display:flex; gap:10px;">
-    <div style="display:flex; flex-direction:column;">
-        <h4 style="display:inline-block;">Active states</h4>
-        <a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/active-states.gif" alt="image showing project on mobile size" style="width: 80%;"></a>
-    </div>
-    <div style="display:flex; flex-direction:column;">
-        <h4 style="display:inline-block;">Mobile</h4>
-        <a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/design-mobile.png" alt="image showing project on mobile size" style="width: 95%;"></a>
-    </div>
-</div>
+
+<h4>Active states</h4>
+<a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/active-states.gif" alt="image showing project on mobile size" style="width: 60%;"></a>
+<h4>Mobile</h4>
+<a href="https://julianastahelin.github.io/nft-preview-card-component/"><img src="design/design-mobile.png" alt="image showing project on mobile size" style="width: 40%;"></a>
 
 <h3>Links</h3>
 <ul>
