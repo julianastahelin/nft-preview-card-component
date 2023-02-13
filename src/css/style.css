@@ -1,3 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root { 
+    --primary-soft: hsl(215, 51%, 70%);
+    --primary-strong: hsl(178, 100%, 50%);
+
+    --neutral-dark: hsl(217, 54%, 11%);
+    --neutral-medium:hsl(216, 50%, 16%);
+    --neutral-light: hsl(215, 32%, 27%);
+}
+
 body {
     font-family: 'Outfit', sans-serif;
 }
@@ -8,7 +27,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 30px 25px;
 }
 
 .card {
@@ -61,7 +79,7 @@ body {
 .card .title-link .title {
     color: #ffffff;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.4px;
     margin-bottom: 20px;
 }
